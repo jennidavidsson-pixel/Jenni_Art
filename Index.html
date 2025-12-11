@@ -10,47 +10,56 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jenni Art | Galleri Namn</title>
+    <title>Jenni Art | Konst Showroom</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NXRZDSXZ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
     <header>
-        <h1>Jenni Art</h1>
-        <p>Välkommen till en digital utställning av Jennis Konst.</p>
+        <h1>J E N N I &nbsp; A R T</h1>
+        <p>Välkommen till en digital utställning av samtida konst.</p>
     </header>
+
+    <nav class="art-filters">
+        <button class="filter-btn active" data-filter="all">Alla</button>
+        <button class="filter-btn" data-filter="abstract">Abstrakt</button>
+        <button class="filter-btn" data-filter="nature">Natur</button>
+    </nav>
 
     <main class="gallery">
         
-        <section class="art-piece" data-title="Abstrakt Havslandskap" data-artist="A. Konstnär">
+        <section class="art-piece" data-category="abstract" data-title="Abstrakt Havslandskap" data-artist="A. Konstnär">
             <img src="placeholder-art-1.jpg" alt="Abstrakt målning i blått och vitt">
             <h3>Abstrakt Havslandskap</h3>
             <p>A. Konstnär</p>
             <button class="view-details">Se detaljer</button>
         </section>
 
-        <section class="art-piece" data-title="Stadsnatt" data-artist="B. Målare">
+        <section class="art-piece" data-category="abstract" data-title="Stadsnatt" data-artist="B. Målare">
             <img src="placeholder-art-2.jpg" alt="Målning av en upplyst stad på natten">
             <h3>Stadsnatt</h3>
             <p>B. Målare</p>
             <button class="view-details">Se detaljer</button>
         </section>
 
-        <section class="art-piece" data-title="Porträtt i Röda Toner" data-artist="C. Skulptör">
+        <section class="art-piece" data-category="abstract" data-title="Porträtt i Röda Toner" data-artist="C. Skulptör">
             <img src="placeholder-art-3.jpg" alt="Porträtt med starka röda och svarta färger">
             <h3>Porträtt i Röda Toner</h3>
             <p>C. Skulptör</p>
             <button class="view-details">Se detaljer</button>
         </section>
+        
+        <section class="art-piece" data-category="nature" data-title="Morgondimma i Skogen" data-artist="D. Landskap">
+            <img src="placeholder-art-4.jpg" alt="Dimma över en skog tidigt på morgonen">
+            <h3>Morgondimma i Skogen</h3>
+            <p>D. Landskap</p>
+            <button class="view-details">Se detaljer</button>
+        </section>
 
-        </main>
+    </main>
 
     <footer>
-        <p>&copy; 2025 Konst Showroom. Alla rättigheter reserverade.</p>
+        <p>&copy; 2025 Jenni Art Showroom. Alla rättigheter reserverade.</p>
     </footer>
 
     <div id="artModal" class="modal">
